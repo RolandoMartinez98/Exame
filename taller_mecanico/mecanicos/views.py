@@ -124,7 +124,7 @@ def login(request):
     return render(request, 'mecanicos/login.html',{} )
 
 def clientem(request):
-    return render(request,'mecanicos/clientem.html',{}),
+    return render(request,'mecanicos/clientem.html',{} )
 
 def registro_usuario(request):
     data={
